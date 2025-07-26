@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.header-nav {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  padding: 20px 20px;
+  margin-bottom: 40px; 
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.images-bnetfit a {
+  text-decoration: none;
+}
+
+
+.images-bnetfit img {
+  height: 60px; /* Ukuran tinggi logo */
+  width: auto; /* Biar proporsional */
+  display: block;
+
+}
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 500px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  margin: auto;
+}
+
+.container img {
+  max-width: 250px; /* Ubah angka ini sesuai kebutuhan, bisa 100px, 120px, dst */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 5px;
+  font-size: 16px;
+  background: #334155;
+  color: #fff;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #38bdf8;
+  border: none;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.whatsapp a {
+  background-color: #25D366;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp a:hover {
+  background-color: #2a5298;
+}
+
+.footer-bnetfit {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 300px;
+  margin: 10px 20px;
+}
+
+.footer-logo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.footer-column h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.whatsapp-icon img {
+  width: 50px;
+  height: 50px;
+  background-color: #6ec1e4;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.wa-label {
+  color: #6ec1e4;
+  font-weight: bold;
+}

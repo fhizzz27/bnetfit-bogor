@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran Pelanggan</title>
+  <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+
+  <header class="header-nav">
+  <div class="navbar-container">
+    <div class="images-bnetfit">
+      <a href="#">
+        <img src="images/logobnetfitlatarbiru.png" alt="Bnetfit">
+      </a>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="form.html">Daftar Layanan</a>
+      
+  </nav>
+  </div>
+</header>
+
+  <div class="container">
+    <img src="images/brand-5.png" alt="logo-form">
+    <h1>Form Pendaftaran Pelanggan</h1>
+    <form id="formPelanggan">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="alamat">Alamat Lengkap (RT/RW):</label>
+      <textarea id="alamat" name="alamat" rows="3" required></textarea>
+
+      <label for="telepon">No Telepon:</label>
+      <input type="tel" id="telepon" name="telepon" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="paket">Pilih Paket:</label>
+      <select id="paket" name="paket" required>
+        <option value="">-- Pilih Paket --</option>
+        <option value="Paket Eco Internet Only">Paket Eco Internet Only</option>
+        <option value="Paket Bussines Reguler 1 AP">Paket Bussines Reguler 1 AP</option>
+        <option value="Paket Bussines Pro 1 AP">Paket Bussines Pro 1 AP</option>
+        <option value="Paket Bussines Pro 1 IP">Paket Bussines Pro 1 IP</option>
+        <option value="Paket Bussines Ultra 1 AP">Paket Bussines Ultra 1 AP</option>
+        <option value="Paket Bussines Ultra 1 IP">Paket Bussines Ultra 1 IP</option>
+        <option value="Paket Bussines Max 1 AP">Paket Bussines Max 1 AP</option>
+        <option value="Paket Bussines Max 1 IP">Paket Bussines Max 1 IP</option>
+      </select>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+
+  <footer class="footer-bnetfit">
+  <div class="footer-container">
+    <!-- Kolom 1: Logo -->
+    <div class="footer-column">
+      <img src="images/brand-5.png" alt="Bnetfit Business" class="footer-logo">
+      
+      <p></p>
+    </div>
+
+    <!-- Kolom 2: Informasi Kontak -->
+    <div class="footer-column">
+      <h4>Informasi Kontak</h4>
+      <p>Head Office Ruko Imperium<br>
+      C1-C3 Jl Mayor Oking No. 63<br>
+      Cibinong – Bogor 16918</p>
+
+      <div class="whatsapp">
+        <div class="whatsapp-icon">
+          <img src="images/icons8-whatsapp-logo-3d-fluency-32.png" alt="WA Icon">
+        </div>
+        <div>
+          <p><span class="wa-label">WHATSAPP</span><br>0858-7034-2999</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kolom 3: Cabang -->
+    <div class="footer-column">
+      <h4>Kantor Cabang Kami</h4>
+      <p>
+        Jakarta | Bogor | Bekasi | Tangerang<br>
+        Bali-Denpasar | Bali-Tabanan | Medan<br>
+        Semarang | Purwokerto | Kudus
+      </p>
+    </div>
+  </div>
+</footer>
+<div style="text-align: center; padding-top: 20px;">&copy; 2025 Bnetfit WiFi Business By Adithiya. All rights reserved.</div>
+
+
+
+  <script src="form-script.js"></script>
+</body>
+</html>
